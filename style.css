@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    display: flex;
+    background-color: rgb(60, 73, 73);;
+    width: 100%;
+    height: 100%;
+    right: 30%;
+    
+}
+i{
+    position: absolute;
+    right: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+i:hover{
+    color: rgb(216, 210, 39);
+    cursor: pointer;
+}
+
+
+
+#leftdiv{
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+#text{
+        z-index: 100;
+        position: absolute;
+        width: 70%;
+        height: 30%;
+        left: 85px;
+        bottom: 62%;
+        font-family: Hursheys;
+        font-size: 75px;
+        letter-spacing: 8px;
+        color: rgb(245, 232, 191);
+}
+
+#text h1:hover{
+             color: rgb(60, 73, 73);
+             text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+             transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+             cursor: pointer;
+} 
+
+#leftbtm{
+    position: absolute;
+    width: 50%;
+   height: 20%;
+   bottom: 3px;
+   font-family: monospace;
+   right: 120px;
+   font-size: 30px;
+   letter-spacing: -1px;
+   font-weight: 10;
+   line-height: 40px;
+}
+#p{
+     color: rgb(155, 142, 142);
+     font-size: 20px;
+     
+}
+#p:hover{
+    color: rgb(29, 25, 25);
+    cursor: pointer;
+}
+#q{
+    color: antiquewhite;
+}
+#q:hover{
+    color: rgb(29, 25, 25);
+    cursor: pointer;
+}
+#r{
+     color: antiquewhite;
+}
+#r:hover{
+       color: rgb(29, 25, 25);
+       cursor: pointer;
+}
+#centerdiv{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1523264766116-1e09b3145b84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#startext h1{
+    position: absolute;
+    color:rgb(168, 111, 111);
+    bottom: 60px;
+    font-size: 100px;
+    font-weight: 200;
+     left: -30px;
+}
+#startext h2{
+    position: absolute;
+     color: rgb(168, 111, 111);
+    bottom: 50px;
+    font-size: 55px;
+    font-family: Hursheys;
+     left: 10px;
+     letter-spacing: 0.5px;
+}
+#rightdiv{
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+   }
+#righttop{
+    width: 100%;
+    height: 88%;
+    background-image: url(https://images.unsplash.com/photo-1554062614-6da4fa67725a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#rightbtm{
+  position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 12%;
+    bottom: 0px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#rightbtm:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#rightbtm h2{
+    position: absolute;
+    font-family: Hursheys;
+    font-size: 70px;
+    letter-spacing: 4px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#rightbtm h2:hover{
+       color: #fff;
+       cursor: pointer;
+}
+
+#circlediv{
+    z-index: 100;
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    right: 330px;
+    top: 20%;
+    border-radius: 50%;
+   border: 0.5px solid rgb(149, 133, 133);
+   display: flex;
+   align-items: center;
+  justify-content: center;
+   font-size: 6px;
+   letter-spacing: 4px;
+color: rgb(184, 142, 142);  
+}
+#circlediv:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.13);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    
+}
+#circlediv h3:hover{
+    cursor: pointer;
+    color: rgb(238, 238, 247);
+}
+#linediv{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 35px;
+        bottom: 35%;
+        border: 0.5px solid rgb(149, 133, 133);
+}
+#linediv:hover{
+    cursor: pointer;
+        background-color: rgba(255,255,255,0.13);
+        transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+}
+#a{
+  position: absolute;
+  font-size: 8px;
+  left: 120px;
+  letter-spacing: 5px;
+  color: rgb(184, 142, 142);
+}
+#a:hover{
+    cursor: pointer;
+   color: rgb(238, 238, 247);
+}
+#b{
+    position: absolute;
+    font-size: 8px;
+    right: 120px;
+    letter-spacing: 3px;
+    color: rgb(184, 142, 142);
+}
+#b:hover{
+    cursor: pointer;
+    color: rgb(238, 238, 247);
+}
+#div2{
+    
+    width: 100%;
+    height: 8%;
+  position: absolute;
+    font-family:Gilroy;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+#text1{
+    position: absolute;
+    font-size: 30px;
+    left: 90px;
+   color: rgb(235, 174, 174);
+}
+#text1:hover{
+    color: blue;
+    cursor: pointer;
+}
+#text2{
+    position: absolute;
+   left: 550px;
+    color: #fff;
+}
+#text2:hover{
+    color: blue;
+    cursor: pointer;
+}
+#text3{
+    position: absolute;
+    color: #fff;
+    right: 400px;
+}
+#text3:hover{
+    color: blue;
+    cursor: pointer;
+}
